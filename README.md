@@ -1,7 +1,23 @@
-# Anti-Duplicator
 
-[TODO. There will be project description]
 
-# Project Goals
+# Поиск дубликатов 
+Данный скрипт принимает на вход папку, просматривает все файлы в ней (и всех подпапках и под-под-...папках) и сообщает, если находит дубликаты. 
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+
+# Как запустить
+```bash
+python duplicates.py
+```
+
+## Пример вывода скрипта
+  ```bash
+     Введите путь
+C:\Users\Никита\Desktop\new
+C:\Users\Никита\Desktop\new\1 Размер файла в байтах: 10
+C:\Users\Никита\Desktop\new\new\1 Размер файла в байтах: 10
+C:\Users\Никита\Desktop\new\new\new1\1 Размер файла в байтах: 10
+```
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
