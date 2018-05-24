@@ -11,11 +11,14 @@ python duplicates.py
 
 ## Пример вывода скрипта
   ```bash
-     Введите путь
-C:\Users\Никита\Desktop\new
-C:\Users\Никита\Desktop\new\1 Размер файла в байтах: 10
-C:\Users\Никита\Desktop\new\new\1 Размер файла в байтах: 10
-C:\Users\Никита\Desktop\new\new\new1\1 Размер файла в байтах: 10
+Найденные дубликаты: {
+  "1": [
+    "C:\\Users\\Никита\\Desktop\\new\\1",
+    "C:\\Users\\Никита\\Desktop\\new\\new\\1",
+    "C:\\Users\\Никита\\Desktop\\new\\new\\new1\\1"
+  ]
+}
+
 ```
 
 # Цели проекта
